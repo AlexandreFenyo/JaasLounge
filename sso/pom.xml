@@ -18,7 +18,7 @@
         <!-- <module>oas</module> -->
         <module>tomcat</module>
         <!-- Requires an existing WebLogic installation, and setting of 'weblogic.home' property -->
-        <!--<module>weblogic</module> -->
+        <!-- <module>weblogic</module> -->
         <!-- <module>websphere</module> -->
     </modules>
 
