@@ -4,3 +4,5 @@ Building from the sources:
 
 This fork has a local version of the artifact jcifs-ext-0.9.4-patched.jar, that is not on Maven Central.
 
+This fork does only build the tomcat JAAS login module.
+
