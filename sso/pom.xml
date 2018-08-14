@@ -14,11 +14,12 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>oas</module>
+        <!-- A. Fenyo: build only the tomcat login module -->
+        <!-- <module>oas</module> -->
         <module>tomcat</module>
         <!-- Requires an existing WebLogic installation, and setting of 'weblogic.home' property -->
-        <!--<module>weblogic</module>-->
-        <module>websphere</module>
+        <!--<module>weblogic</module> -->
+        <!-- <module>websphere</module> -->
     </modules>
 
     <dependencies>

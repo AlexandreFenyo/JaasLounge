@@ -25,10 +25,15 @@
             <artifactId>jcifs</artifactId>
             <version>1.2.19</version>
         </dependency>
+
+<!-- A. Fenyo: not on maven central => local reference
+     This will generate a warning at build time: 'dependencies.dependency.systemPath' for org.jaaslounge.patched:jcifs-ext:jar should not point at files within the project directory, ${basedir}/../archive/jcifs-ext-0.9.4-patched.jar will be unresolvable by dependent projects -->
         <dependency>
             <groupId>org.jaaslounge.patched</groupId>
             <artifactId>jcifs-ext</artifactId>
             <version>0.9.4-patched</version>
+            <scope>system</scope>
+            <systemPath>${basedir}/../archive/jcifs-ext-0.9.4-patched.jar</systemPath>
         </dependency>
     </dependencies>
 </project>
